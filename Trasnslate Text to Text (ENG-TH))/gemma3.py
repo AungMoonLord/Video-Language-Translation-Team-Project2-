@@ -4,7 +4,7 @@ from huggingface_hub import login
 import textwrap
 
 # 1. Login และตั้งค่า Model
-HF_TOKEN = "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"
+HF_TOKEN = "ใส่ Access Token ของ gemma" #ต้องกด Accept Licencse จาก Hugging Face ก่อน
 login(token=HF_TOKEN)
 
 # ตรวจสอบว่ามองเห็น GPU หรือไม่
