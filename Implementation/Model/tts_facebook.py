@@ -47,9 +47,11 @@ def text_to_speech_TH(
         }
 
 
-# ตัวอย่างการใช้งาน
+# # ตัวอย่างการใช้งาน
 
-# text = "อากาศวันนี้ดีมาก เหมาะกับการเขียนโค้ด"
+text = "อากาศวันนี้ดีมาก เหมาะกับการเขียนโค้ด"
 
 # # MMS (เร็ว เบา)
 # r2 = text_to_speech_TH(text, output_path="mms.wav")
+r2 = text_to_speech_TH(text, output_path="D:/Team Project 2/Video-Language-Translation-Team-Project2-/Implementation/Model/mms.mp3")
+print(r2["audio_path"])
