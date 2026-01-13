@@ -12,7 +12,7 @@ _mms_tokenizer = AutoTokenizer.from_pretrained(_mms_model_name)
 print("✅ MMS-TTS model loaded")
 
 
-def tts_mms_thai(
+def text_to_speech_TH(
     text: str,
     output_path: str = "thai_mms.wav",
 ):
@@ -52,4 +52,4 @@ def tts_mms_thai(
 # text = "อากาศวันนี้ดีมาก เหมาะกับการเขียนโค้ด"
 
 # # MMS (เร็ว เบา)
-# r2 = tts_mms_thai(text, output_path="mms.wav")
+# r2 = text_to_speech_TH(text, output_path="mms.wav")
