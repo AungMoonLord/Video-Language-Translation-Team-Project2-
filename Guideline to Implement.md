@@ -1,5 +1,5 @@
 1. เอาไฟล์วิดิโอภาษาอังกฤษมาใส่ในโค้ด เพื่อดึงเสียง
-    - Edit Audio
+    - Edit Audio (ใช้โมเดล openai/whisper-large-v3)
     > Input: ไฟล์วิดิโอ (ภาษาอังกฤษ)
     > Output: ไฟล์เสียง (ภาษาอังกฤษ)
 
@@ -7,6 +7,8 @@
     - Speech to Text (ENG) > ใช้โมเดล openai/whisper-large-v3
     > Input: ไฟล์เสียง (ภาษาอังกฤษ)
     > Output: ข้อความ (ภาษาอังกฤษ)
+    
+### ขั้นตอนที่ 1-2 เป็นขั้นตอนเดียวกัน
 
 3. ส่ง Text จาก (2.) เข้าไปที่
     - Translate Text to Text (ENG-TH) > ใช้โมเดล typhoon-translate-4b
