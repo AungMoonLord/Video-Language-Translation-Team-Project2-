@@ -32,7 +32,7 @@ except:
 
 # Language Dictionary
 LANG_TEXT = {
-    "app_title": {"TH": "โปรแกรมแปลภาษาวิดีโอด้วย AI", "EN": "AI Video Translator"},
+    "app_title": {"TH": "โปรแกรมแปลภาษาวิดีโอด้วย AI", "EN": "Video AI Translator"},
     "subtitle": {"TH": "ขับเคลื่อนด้วย Typhoon 4B, Whisper v3 และ Edge TTS", "EN": "Powered by Typhoon 4B & Whisper v3 & Edge TTS"},
     "hw_prefix": {"TH": "ฮาร์ดแวร์: ", "EN": "Hardware: "},
     "btn_browse": {"TH": "📂 เลือกไฟล์วิดีโอ", "EN": "📂 Browse Video"},
