@@ -28,3 +28,7 @@
 
 
 
+### คำสั่งติดตั้งใน pyinstaller (เปลี่ยนชื่อไฟล์ Complete V4.py เป็น Video AI Translator)
+
+pyinstaller --noconsole --onedir --clean --icon="icon_app.ico" --name "Video AI Translator" --collect-all customtkinter --collect-all edge_tts --copy-metadata imageio --copy-metadata moviepy "Video AI Translator.py"
+
